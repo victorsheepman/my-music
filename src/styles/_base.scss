@@ -1,0 +1,57 @@
+$color-yellow: #FFCD06;
+$color-white: #FFFFFF;
+$color-black:#3A3A3A;
+$font:  'PT Sans', sans-serif;
+
+@function porcentaje($width){
+    @return  $width * 100%/1360;
+};
+ 
+.title-lg{
+    //styleName: Large Title;
+    font-family:$font ;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.headline{
+    //styleName: Headline;
+    font-family: $font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sub-headline{
+    //styleName: Subheadline;
+    font-family: $font;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.body{
+    //styleName: Body;
+    font-family:$font;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}

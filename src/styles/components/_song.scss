@@ -1,0 +1,29 @@
+.song{
+    width: 416px;
+    height: 40px;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+    color: $color-white;
+    &__left{
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    &__right{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__id{
+        margin-right: 5px;
+        color:  rgba(255, 255, 255, 0.5);
+    }
+    &__title{
+        color: rgba(255, 255, 255, 1);
+
+    }
+}

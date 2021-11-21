@@ -1,0 +1,61 @@
+.main{
+    width: 100%;
+    height: 963px;
+    display: flex;
+    justify-content: center;
+    &__left{
+        width: porcentaje(992);
+        height: 100%;
+        border-radius: 0 22px 22px 0;
+        background-color:$color-white;
+        h3{
+            margin-left: 24px;
+            margin-bottom: 27px;
+        }
+    }
+    &__right{
+        width: porcentaje(448);
+        height: 100%;
+        background-image: url('../../assets/images/cover-big.png');
+        &__wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 24px;
+            background: #00000003;
+            backdrop-filter: blur(200px);
+
+        }
+        
+    }
+}
+
+.album{
+    width: 400px;
+    height: 64px;
+    margin: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    &__image{
+        width: 64px;
+        height: 64px;
+    }
+    &__body{
+        width: 252px;
+        height: 100%;
+    }
+    h4, p{
+        color: $color-white;
+    }
+    span{
+        color: $color-yellow;
+    }
+}
+.sound{
+    width: 400px;
+    height: 48px;
+    margin: 32px 0 0 0;
+    &__wave{
+        width: 100%;
+        height: 100%;
+    }
+}
